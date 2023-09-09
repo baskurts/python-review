@@ -41,6 +41,16 @@ while (i < len(nums)):
     i = i + 1
 print()
 
+# Rewrite the while loop above so that it outputs only the nums 
+# that are less than 6.
+
+i = 0
+while (i < len(nums)):
+    if nums[i] < 6:
+        print(nums[i], end=" ")
+    i = i + 1
+print()
+
 # Python has inbuilt functions that may be used to manipulate lists.
 
 # The append function may be used to add one element at a time to a list.
@@ -111,3 +121,5 @@ print(names, ' - pop function')
 first = names.pop(0) 
 print(first)
 print(names, ' - pop function with index')
+
+

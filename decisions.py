@@ -133,3 +133,17 @@ if (not foundIt):
     print('foundIt is False.')
 else:
     print('foundIt is True.')
+
+
+grade = 'D'
+
+if grade == 'A':
+    print('Super work!')
+elif grade == 'B':
+    print('Good job!')
+elif grade == 'C':
+    print('You made it.')
+elif grade == 'D' or 'F':
+    print('oh dear...')
+else:
+    print('Invalid grade.')

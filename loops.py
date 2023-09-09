@@ -61,3 +61,10 @@ while (i > 0):
     # the loop will repeat infinitely.
     i = i - 1
 print("blastoff!")
+
+# Write a while loop that prints out the odd numbers between 1 and 10.
+num = 1
+while num <= 10:
+    print(num)
+    num += 2
+
